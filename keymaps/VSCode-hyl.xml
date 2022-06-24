@@ -20,6 +20,10 @@
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="meta alt m" />
+    <keyboard-shortcut first-keystroke="shift meta 2" />
+  </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
@@ -28,5 +32,13 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="HideSideWindows" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="ReformatCode" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>
